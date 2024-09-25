@@ -1,0 +1,24 @@
+name: my_flutter_app
+description: A Flutter app for recipes.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/burger.jpg
+    - assets/curry.jpg
+    - assets/pasta.jpg
+    - assets/pizza.jpg
+    - assets/sushi.jpg
+    - assets/salad.jpg
+    - assets/background.jpg
